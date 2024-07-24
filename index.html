@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boutons & Couleurs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="btn">
+        <button class="bouton" id="rouge"></button>
+        <button class="bouton" id="orange"></button>
+        <button class="bouton" id="jaune"></button>
+        <button class="bouton" id="vert"></button>
+        <button class="bouton" id="turquoise"></button>
+        <button class="bouton" id="bleu"></button>
+        <button class="bouton" id="indigo"></button>
+        <button class="bouton" id="violet"></button>
+        <button class="bouton" id="rose"></button>
+        <button class="bouton" id="noir"></button>
+    </section>
+    <div id="bas">
+    <section id="generateur_rgb">
+        <h3>Générateur de couleur RGB :</h3>
+        <label for="red"><span id="R">Rouge :</span></label>
+        <input type="range" id="red" value="255" min="0" max="255">
+        <label for="green"><span id="G">Vert : </span></label>
+        <input type="range" id="green" value="255" min="0" max="255">
+        <label for="blue"><span id="B">Bleu : </span></label>
+        <input type="range" id="blue" value="255" min="0" max="255">
+        <label for="result">Couleur : </label>
+        <input id="result" value="rgb(255,255,255)">
+    </section>
+    <section id="fenetre">
+    </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

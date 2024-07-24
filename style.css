@@ -1,0 +1,135 @@
+/*Section avec tous les boutons*/
+#btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+/*Tous les boutons*/
+button {
+    border-radius: 100%;
+    border: black;
+    width: 17%;
+    height: 156px;
+    box-shadow: 2px 10px rgb(222, 213, 213);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+/*Couleur des 10 boutons*/
+#rouge {
+    background-color: red;
+}
+
+#orange {
+    background-color: orange;
+}
+
+#jaune {
+    background-color: yellow;
+}
+
+#vert {
+    background-color: green;
+}
+
+#turquoise {
+    background-color: turquoise;
+}
+
+#bleu {
+    background-color: deepskyblue;
+}
+
+#indigo {
+    background-color: blue;
+}
+
+#violet {
+    background-color: blueviolet;
+}
+
+#rose {
+    background-color: deeppink;
+}
+
+#noir {
+    background-color: black;
+}
+
+/*Section basse de la page*/
+#bas {
+    display: flex;
+
+}
+
+/*Section du générateur RGB*/
+#generateur_rgb {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-right: 10%;
+    margin-left: 5%;
+    margin-top: 20px;
+    justify-content: space-around;
+    background: #333; 
+    border-radius: 10px; 
+    place-items: center; 
+    color: #fff; 
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+#R {
+    text-decoration: underline red;
+}
+
+#red {
+    background: linear-gradient(90deg, black, red);
+
+}
+
+#G {
+    text-decoration: underline green;
+}
+
+#green {
+    background: linear-gradient(90deg, black, green);
+}
+
+#B {
+    text-decoration: underline blue;
+}
+
+#blue {
+    background: linear-gradient(90deg, black, blue);
+}
+
+#result{
+    font-size: 30px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+input[type="range"] { 
+    appearance: none; 
+    height: 10px; 
+    width: 80%; 
+    border-radius: 50px; 
+    outline: none; 
+    cursor: pointer;
+} 
+
+/*Section de la fenêtre qui change de couleur*/
+#fenetre {
+    border: outset 10px;
+    height: 500px;
+    width: 50%;
+    margin-top: 30px;
+    background-color: white;
+}
